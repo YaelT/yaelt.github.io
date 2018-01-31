@@ -1,22 +1,8 @@
-body {
-    background-color: #A3CDDB;
-    text-align: center;
-    font-family: Verdana, Geneva, sans-serif;
+@ -3,5 +3,5 @@ body {
 }
 
-h1 {
-	background-color: white;
-    color: #526277;
-    font-size: 70px
-
+h1, p {
+    color: gold;
 }
-
-h2 {
-    color: #00655B;
-    font-size: 30px
-}
-
-p {
-	background-color: #ee2e60;
-    color: white;
+    color: #ffeb3b;
 }
