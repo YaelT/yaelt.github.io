@@ -1,0 +1,22 @@
+body {
+    background-color: #A3CDDB;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+	background-color: white;
+    color: #526277;
+    font-size: 70pt
+
+}
+
+h2 {
+    color: #00655B;
+    font-size: 30pt
+}
+
+p {
+	background-color: #ee2e60;
+    color: white;
+}
