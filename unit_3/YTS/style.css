@@ -1,23 +1,18 @@
 body{
 
-	background-image: url("https://raw.githubusercontent.com/YaelT/yaelt.github.io/master/unit_3/YTS/images/bg1.png");
-	background-size: cover;
-    text-align: center;
+	
     font-family: Verdana, Geneva, sans-serif;
 }
 
 h1 {
-    color: white;
-    font-size: 30pt
+    
 
 }
 
 h2 {
-    color: #00655B;
-    font-size: 30pt
+    
 }
 
 p {
-	background-color: #ee2e60;
-    color: white;
+	
 }
