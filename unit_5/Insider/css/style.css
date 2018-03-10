@@ -40,6 +40,14 @@ h1{
 
 }
 
+h2{
+  font-size: 1.8em;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
 hr{
   height: 2px;
   border: none;
@@ -50,6 +58,8 @@ hr{
 
 h3{
   text-align: center;
+  padding: 10px;
+  margin: 10px
 }
 
 nav{
@@ -78,9 +88,13 @@ nav a:hover{
   margin: 5px;
   border: 2px orange solid;
 }
+footer{
+  background-color: #555555;
+}
 
 #one{
   background-color: blue;
+  margin: auto;
 }
 
 .TopCategory{
@@ -88,7 +102,7 @@ nav a:hover{
   width: 200px;
   height: 500px;
   padding: 10px 0;
-  margin: 5px;
+  margin: 5px auto;
   background-color: red;
   float: left;
 }
@@ -107,16 +121,16 @@ nav a:hover{
 }
 
 .clearfix:after{
-  visibility: hidden;
+/*  visibility: hidden;
   height: 0;
-  font-size: 0;
-  content:"hello";
+  font-size: 0;*/
+  content:" ";
   display: block;
   clear:both;
 }
 
 #wrapper{
-  /*background-color: purple;*/
+  background-color: purple;
   width: 1080px;
-    margin: 0 auto;
+  margin: auto;
 }
