@@ -94,7 +94,7 @@ footer{
 
 #one{
   background-color: blue;
-  margin: auto;
+  margin: 40px auto;
 }
 
 .TopCategory{
@@ -121,16 +121,16 @@ footer{
 }
 
 .clearfix:after{
-/*  visibility: hidden;
+  visibility: hidden;
   height: 0;
-  font-size: 0;*/
+  font-size: 0;
   content:" ";
   display: block;
   clear:both;
 }
 
-#wrapper{
+/*#wrapper{
   background-color: purple;
   width: 1080px;
   margin: auto;
-}
+}*/
