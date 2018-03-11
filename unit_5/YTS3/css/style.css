@@ -12,8 +12,18 @@ body{
 }
 
 main{
+
 	margin: 20px;
+	/*background: blue;*/
+	max-width: 900px;
 }
+
+aside{
+	margin: 20px;
+		/*background: blue;*/
+
+}
+
 nav a {
 	text-transform: uppercase;
 	font-size: 14px;
@@ -31,6 +41,9 @@ header{
 	padding: 20px;
 }
 
+h2{
+	margin:20px 0;
+}
 
 }
 h3 {
@@ -44,7 +57,7 @@ a{
 }
 img{
 	width: 300px;
-	padding-top: 40px;
+	/*padding-top: 40px;*/
 }
 
 
@@ -55,19 +68,40 @@ footer{
 	text-align: center;
 }
 
+#about{
+width: 600px;
+float: left;
+display: inline-block;
+}
+
+#about > p{
+	width: 500px;
+}
+
+#about > img{
+	width: 100px;
+	float: left;
+	display: inline-block;
+	margin-right: 20px;
+}
+
 .clearfix:after{
 	visibility: hidden;
 	height: 0;
 	font-size: 0;
-	content: testing1;
+	content: " ";
 	display: block;
 	clear: both;
 }
 
 .projects{
 	float: left;
+	/*background: red;*/
 }
 
-
+#projects{
+	width: 700px;
+	background: orange;
+}
 
  /* This is a CSS note */
