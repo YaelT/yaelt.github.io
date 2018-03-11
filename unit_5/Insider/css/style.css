@@ -10,8 +10,8 @@ body{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: orange;
-  padding: 30px;
-  background-color: #EEBBEE;
+/*  padding: 30px;
+*/  background-color: #EEBBEE;
 }
 
 header{
@@ -90,14 +90,20 @@ nav a:hover{
 footer{
   background-color: #555555;
   clear: both;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 1em;
 }
 
-#one{
+#one #two{
   background-color: blue;
-  margin: 40px auto;
+  margin: 100px auto;
+  width: 1200px;
+  align-content: center;
 }
 
-.TopCategory{
+.category{
 
   width: 200px;
   height: 500px;
@@ -107,18 +113,10 @@ footer{
   float: left;
 }
 
-.TopCategory img{
+.category img{
   width: 100%;
 }
 
-.BottomCategory{
-  width: 200px;
-  height: 500px;
-  padding: 10px 0;
-  margin: 5px;
-  background-color: yellow;
-  float: left;
-}
 
 .clearfix:after{
   visibility: hidden;
