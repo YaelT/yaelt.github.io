@@ -7,23 +7,23 @@
 }
 
 body{
-    /*background-color: #FFEECC;*/
+    background-color: #f8f6f3;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #864319;
+  color: #680b84;
 }
 
 main{
   /*padding: 30px;*/
   margin: auto;
   /*background: #222;*/
-  width: 1150px;
+  width: 1180px;
 }
 
 h1{
   font-size: 1.8em;
   font-weight: 300;
-  /*color: #864319;*/
+  /*color: #680b84;*/
   padding-bottom: 5px;
     margin-top: 10px;
 }
@@ -31,7 +31,7 @@ h1{
 h2{
   font-weight: 500;
   font-size: 1.8em;
-  margin: 10px;
+  margin: 20px 10px;
 }
 
 h3{
@@ -40,6 +40,10 @@ h3{
   padding: 10px;
   border-bottom: 2px orange solid;
   margin-bottom: 5px;: 
+}
+
+p{
+  margin: 5px;
 }
 
 header{
@@ -66,16 +70,27 @@ nav a{
   color: orange;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 10px;
+  letter-spacing: 3px;
+  padding: 5px 10px;
   margin: 10px;
   border: 2px orange solid; 
+}
+
+nav a:hover{
+  background: white;
+}
+
+nav a:active{
+  background: orange;
+  color: white;
 }
 
 footer{
 text-align: center;
 padding: 30px;
-background: #864319;
+background: #680b84;
 color: orange;
+margin-top: 20px;
 
 }
 
