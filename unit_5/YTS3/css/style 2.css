@@ -94,9 +94,9 @@ display: inline-block;
 	clear: both;
 }
 
-.projects{
+.part {
 	float: left;
-	/*background: red;*/
+	background: red;
 }
 
 #projects{
