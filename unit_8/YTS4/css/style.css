@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500');
+*{
+
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+	}
+
+body{
+	font-family: Raleway, Arial, sans-serif;
+	font-size: 16px;
+	/*color: #033D9F;*/
+	line-height: 1.3;
+}
+
+main{
+	margin: auto;
+	/*background: orange;*/
+	max-width: 1200px ;
+	padding: 1em;
+	
+}
+
+aside{
+	margin: 20px;
+	/*background: blue;*/
+
+}
+
+nav a {
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #033D9F;
+	text-decoration: none;
+	margin: .4em;
+	padding: 5PX 10PX;
+	border: 2px solid #033D9F;
+	}
+
+nav a:hover { 
+    background-color: #033D9F;
+    color: white;
+}	
+
+	nav{
+	float: right;
+	margin: 1em;
+	}
+
+header{
+	/*background: orange;*/
+	max-width: 1200px;
+	min-height: 6em;
+	padding: 2em 1em;
+	margin: auto;
+}
+
+
+h1{
+
+}
+
+h2{
+	margin: 16px 0 20px;
+	color: #033D9F;
+	text-transform: uppercase;
+}
+
+
+h3 {
+	font-size: 1.2em;
+	margin: 1em 0 0 0;
+	line-height: 1em;
+}
+
+h1+h3{
+	margin: 0;
+}
+
+h4{
+	font-size: .9em;
+	color: #555555;
+	padding: .3em 0 .8em;
+}
+
+
+
+footer{
+
+	background-color: rgba(46, 55, 59, 0.2);
+	color: rgba(46, 55, 59, .4);
+	padding: 2em;
+	text-align: center;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+	}
+
+#section1{
+	/*background-color: yellow;*/
+	margin: auto;
+}
+
+#section2{
+	/*background-color: yellow;*/
+	margin: auto;
+}
+
+.part{
+	/*background-color: grey;*/
+	float: left;
+	margin: 1%;
+	width: 31.3%;
+	min-height: 45em
+}
+
+.part img{
+	width: 100%;
+}
+
+.projects{
+	margin: auto;
+	/*background-color: blue;*/
+	width: 100%;
+}
+
+.about{
+	/*width: 40%;*/
+	/*float: left;*/
+	/*background-color: green;*/
+}
+
+.about img{
+	width: 10%;
+	float: left;
+	/*display: block;*/
+	padding: 0 1em 0 0;
+}
+
+
+
+.about>p{
+	/*background-color: red;*/
+	width: 23%;
+	float: left;
+	/*display: inline;*/
+	padding-right: 2em;
+	font-size: .8em;
+}
+
+
+/* This is a CSS note */
