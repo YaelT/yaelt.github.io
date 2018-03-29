@@ -49,9 +49,9 @@ nav a:hover {
 
 header{
 	/*background: orange;*/
-	max-width: 1200px ;
+	max-width: 1200px;
 	min-height: 6em;
-	padding: 1em;
+	padding: 2em 1em;
 	margin: auto;
 }
 
