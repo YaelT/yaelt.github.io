@@ -51,7 +51,7 @@ header{
 	/*background: orange;*/
 	max-width: 1200px;
 	min-height: 6em;
-	padding: 2em 0;
+	padding: 2em 1.4em;
 	margin: auto;
 }
 
@@ -61,7 +61,7 @@ h1{
 }
 
 h2{
-	margin: .2em;
+	margin: 1%;
 	color: #033D9F;
 	text-transform: uppercase;
 }
@@ -109,8 +109,8 @@ footer{background-color: rgba(46, 55, 59, 0.2);color: rgba(46, 55, 59, .4);paddi
 .part{
 	/*background-color: grey;*/
 	float: left;
-	margin: .4em;
-	width: 32.2%;
+	margin: 1%;
+	width: 31.2%;
 	min-height: 41em;
 }
 
