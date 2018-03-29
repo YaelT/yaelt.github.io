@@ -51,7 +51,7 @@ header{
 	/*background: orange;*/
 	max-width: 1200px;
 	min-height: 6em;
-	padding: 2em 1em;
+	padding: 2em 0;
 	margin: auto;
 }
 
@@ -61,7 +61,7 @@ h1{
 }
 
 h2{
-	margin: 16px 0 20px;
+	margin: .2em;
 	color: #033D9F;
 	text-transform: uppercase;
 }
@@ -85,13 +85,7 @@ h4{
 
 
 
-footer{
-
-	background-color: rgba(46, 55, 59, 0.2);
-	color: rgba(46, 55, 59, .4);
-	padding: 2em;
-	text-align: center;
-}
+footer{background-color: rgba(46, 55, 59, 0.2);color: rgba(46, 55, 59, .4);padding: 1em 0 2em;text-align: center;}
 
 .clearfix:after{
 	visibility: hidden;
@@ -115,9 +109,9 @@ footer{
 .part{
 	/*background-color: grey;*/
 	float: left;
-	margin: 1%;
-	width: 31.3%;
-	min-height: 45em
+	margin: .4em;
+	width: 32.2%;
+	min-height: 41em;
 }
 
 .part img{
@@ -137,20 +131,20 @@ footer{
 }
 
 .about img{
-	width: 10%;
+	width: 8%;
 	float: left;
 	/*display: block;*/
-	padding: 0 1em 0 0;
+	margin: 0 1em 0 0.2em;
 }
 
 
 
 .about>p{
 	/*background-color: red;*/
-	width: 23%;
+	width: 24%;
 	float: left;
 	/*display: inline;*/
-	padding-right: 2em;
+	padding-right: 1em;
 	font-size: .8em;
 }
 
