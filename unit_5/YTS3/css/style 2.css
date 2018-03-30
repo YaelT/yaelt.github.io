@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family: Raleway, Arial, sans-serif;
+	font-size: 16px;
+	/*color: #033D9F;*/
+	line-height: 1.3;
+}
+
+main{
+
+	margin: 20px;
+	/*background: blue;*/
+	max-width: 900px;
+}
+
+aside{
+	margin: 20px;
+		/*background: blue;*/
+
+}
+
+nav a {
+	text-transform: uppercase;
+	font-size: 14px;
+	margin:0 1em;
+	padding: 5PX 10PX;
+	border: 2px solid #033D9F;
+}
+
+nav{
+
+	float: right;
+}
+
+header{
+	padding: 20px;
+}
+
+h2{
+	margin:20px 0;
+}
+
+}
+h3 {
+	font-size:1.5em;
+	color: #555555;
+}
+
+a{
+	color: #033D9F;
+	text-decoration: none;
+}
+img{
+	width: 300px;
+	/*padding-top: 40px;*/
+}
+
+
+footer{
+	background-color: rgba(46, 55, 59, 0.2);
+	color: rgba(46, 55, 59, .4);
+	padding: 2em;
+	text-align: center;
+}
+
+#about{
+width: 600px;
+float: left;
+display: inline-block;
+}
+
+#about > p{
+	width: 500px;
+}
+
+#about > img{
+	width: 100px;
+	float: left;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.part {
+	float: left;
+	background: red;
+}
+
+#projects{
+	width: 700px;
+	background: orange;
+}
+
+ /* This is a CSS note */
