@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,500');
 *{
+
 	padding: 0;
 	margin: 0;
 	box-sizing:border-box;
-}
+	}
+
 body{
 	font-family: Raleway, Arial, sans-serif;
 	font-size: 16px;
@@ -12,30 +14,50 @@ body{
 }
 
 main{
+<<<<<<< HEAD
 
 	margin: 20px;
 	/*background: blue;*/
 	max-width: 1000px;
+=======
+	margin: auto;
+	/*background: orange;*/
+	max-width: 1200px ;
+	padding: 1em;
+	
+>>>>>>> c4c306038a7139b341815259757ac497f82c59b2
 }
 
 aside{
 	margin: 20px;
-		/*background: blue;*/
+	/*background: blue;*/
 
 }
 
 nav a {
 	text-transform: uppercase;
+<<<<<<< HEAD
 	font-size: 14px;
 	margin:0 .5em;
+=======
+	font-size: 1em;
+	color: #033D9F;
+	text-decoration: none;
+	margin: .4em;
+>>>>>>> c4c306038a7139b341815259757ac497f82c59b2
 	padding: 5PX 10PX;
 	border: 2px solid #033D9F;
-}
+	}
 
-nav{
+nav a:hover { 
+    background-color: #033D9F;
+    color: white;
+}	
 
+	nav{
 	float: right;
-}
+	margin: 1em;
+	}
 
 nav a:hover{
 		outline: 1px solid #033D9F;
@@ -43,57 +65,57 @@ nav a:hover{
 }
 
 header{
-	padding: 20px;
+	/*background: orange;*/
+	max-width: 1200px;
+	min-height: 6em;
+	padding: 2em 1em;
+	margin: auto;
 }
 
 
 h1{
 
 }
+<<<<<<< HEAD
 
 h2{
 	margin:20px 0;
 /*	color: #033D9F;
 */}
+=======
+>>>>>>> c4c306038a7139b341815259757ac497f82c59b2
 
-}
-h3 {
-	font-size:1.5em;
-	color: #555555;
-}
-
-a{
+h2{
+	margin: 16px 0 20px;
 	color: #033D9F;
-	text-decoration: none;
+	text-transform: uppercase;
 }
-img{
-	width: 300px;
-	/*padding-top: 40px;*/
+
+
+h3 {
+	font-size: 1.2em;
+	margin: 1em 0 0 0;
+	line-height: 1em;
 }
+
+h1+h3{
+	margin: 0;
+}
+
+h4{
+	font-size: .9em;
+	color: #555555;
+	padding: .3em 0 .8em;
+}
+
 
 
 footer{
+
 	background-color: rgba(46, 55, 59, 0.2);
 	color: rgba(46, 55, 59, .4);
 	padding: 20px;
 	text-align: center;
-}
-
-#about{
-width: 600px;
-float: left;
-display: inline-block;
-}
-
-#about > p{
-	width: 500px;
-}
-
-#about > img{
-	width: 100px;
-	float: left;
-	display: inline-block;
-	margin-right: 20px;
 }
 
 .clearfix:after{
@@ -103,10 +125,46 @@ display: inline-block;
 	content: " ";
 	display: block;
 	clear: both;
+	}
+
+#section1{
+	/*background-color: yellow;*/
+	margin: auto;
+}
+
+#section2{
+	/*background-color: yellow;*/
+	margin: auto;
+}
+
+.part{
+	/*background-color: grey;*/
+	float: left;
+	margin: 1%;
+	width: 31.3%;
+	min-height: 45em
+}
+
+.part img{
+	width: 100%;
 }
 
 .projects{
+	margin: auto;
+	/*background-color: blue;*/
+	width: 100%;
+}
+
+.about{
+	/*width: 40%;*/
+	/*float: left;*/
+	/*background-color: green;*/
+}
+
+.about img{
+	width: 10%;
 	float: left;
+<<<<<<< HEAD
 	padding-bottom: 20px;
 	/*margin: 0 10px;*/
 	/*background: red;*/
@@ -123,6 +181,22 @@ display: inline-block;
 #projects{
 	width: 700px;
 	background: orange;
+=======
+	/*display: block;*/
+	padding: 0 1em 0 0;
 }
 
- /* This is a CSS note */
+
+
+.about>p{
+	/*background-color: red;*/
+	width: 23%;
+	float: left;
+	/*display: inline;*/
+	padding-right: 2em;
+	font-size: .8em;
+>>>>>>> c4c306038a7139b341815259757ac497f82c59b2
+}
+
+
+/* This is a CSS note */
