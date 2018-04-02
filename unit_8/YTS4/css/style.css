@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,700');
 
 *{
 	padding: 0;
@@ -31,7 +31,7 @@ nav a {
 
 nav{
 	float: right;
-	margin: 1em;
+	margin:  1rem 0;
 }
 
 header{
@@ -48,8 +48,9 @@ h1{
 }
 
 h2{
-	margin: 1%;
+	/*margin: 1%;*/
 	color: #033D9F;
+	padding: 1rem;
 	text-transform: uppercase;
 }
 
@@ -68,9 +69,16 @@ h4{
 	font-size: .9em;
 	color: #555555;
 	padding: .3em 0 .8em;
+	font-weight: 300;
 }
 
+p + p {
+    margin-top: .5em;
+}
 
+b{
+	font-weight: 700;
+}
 
 footer{
 	background-color: rgba(46, 55, 59, 0.2);
@@ -81,6 +89,14 @@ footer{
 
 aside{
 	background-color: rgba(46, 55, 59, 0.05);
+}
+
+hr{
+	height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    display: none;
+    margin-top: 2em;
 }
 
 #section1{
@@ -117,7 +133,7 @@ aside{
 	float: left;
 	padding: 1rem;
 	width: 33.33%;
-	min-height: 41em;
+	min-height: 39rem;
 }
 
 .part img{
@@ -174,7 +190,7 @@ float: left;
 	}
 
 	.part{
-		width: 48%;
+		width: 50%;
 		min-height: 43em;
 	}
 
@@ -218,8 +234,19 @@ float: left;
 	}
 
 	.part{
-		min-height: 39em;
+		/*min-height: 8rem;*/
+		width: 100%;
+		height: auto;
+		/*float: none;*/
+		margin-bottom: 2rem;
+		/*border-bottom: 1px solid #033D9F;*/
+
 	}
+
+	hr {
+		display: block;
+    }
+
 
 	.location{
 		width: 100%;
@@ -237,12 +264,6 @@ float: left;
 		width: 120px;
 	}
 
-	.part{
-		width: 98%;
-		height: auto;
-		float: none;
-		margin-bottom: 8em;
-	}
 
 	.yts>p{
 		/*background-color: red;*/
@@ -264,9 +285,7 @@ float: left;
 		font-size: 4vw;
 	}
 
-	/*h2 {
-		font-size: 5vw;
-	*/}
+
 
 }
 
