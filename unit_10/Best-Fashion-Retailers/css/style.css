@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700);
+
+
+/**{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}*/
+
+body{
+	font-family: 'Montserrat', Arial, sans-serif;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #eaeaea;
+	font-size: 16px;
+}
+
+header{
+	background:url(../assets/carina-nebula.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:750px;
+	padding:20px 0;
+}
+
+footer p{
+	color: #a8a8a8;
+	font-weight: 200
+	font-size: 12px;
+}
