@@ -9,25 +9,62 @@
 
 body{
 	font-family: 'Montserrat', Arial, sans-serif;
-	width: 600px;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #eaeaea;
 	font-size: 16px;
 }
-
 header{
-	background:url(../assets/carina-nebula.jpg) no-repeat center center scroll;
+		background-color: #2dc2db;
+}
+
+header #part{
+	background:url(https://yaelt.github.io/unit_10/Best-Fashion-Retailers/Images/hero.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height:750px;
+/*	height:200px;*/
 	padding:20px 0;
+	margin: auto;
+	width: 600px;
+}
+
+header a{
+	color: white;
+	text-decoration: underline;
+	width: 600px;
+}
+
+header h3{
+	font-weight: 200;
+}
+
+h1{
+	color: white;
+	font-weight: 600;
+	font-size: 3.5em;
+
+}
+
+h2{
+	 color: #04c2db;
+	font-weight: 400;
+}
+main{
+	width: 600px;
+	margin: auto;
+}
+
+footer{
+
 }
 
 footer p{
 	color: #a8a8a8;
-	font-weight: 200
-	font-size: 12px;
+	font-weight: 200;
+	font-size: .8em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
 }
