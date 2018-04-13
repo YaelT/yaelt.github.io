@@ -1,0 +1,40 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700);
+
+
+/* Colour pallette
+
+Colour 1: #2D102D
+Colour 2: #82204A
+Colour 3: #3690A0
+Colour 4: #F7EA85
+Colour 5: #EFF7FF
+
+--------------------------------*/
+
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+/*Global Styles
+-----------------------------------*/
+
+
+.content-wrap{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.hero{
+	background:url(https://yaelt.github.io/unit_10/Best-Fashion-Retailers/Images/hero.jpg) no-repeat center center;
+	width: 100%;
+	object-fit: fill;
+
+}
