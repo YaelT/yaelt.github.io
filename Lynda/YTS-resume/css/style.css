@@ -1,0 +1,65 @@
+
+/* colour palette-RGB
+-------------------------------- 
+Dark: #322f3e;
+light: #fdffe8;
+prime 1: #ef5a43;
+prime 2: #ff904c;
+tertiary: #c2ceb3;
+*/
+
+
+@font-face{
+	font-family: 'Nunito-Sans';
+	src: yaelt.github.io/Lynda/Nunito_Sans('NunitoSans-Regular.ttf');
+}
+
+
+/*  Global Styles
+-----------------------------------*/
+
+body{
+	font-family: 'Nunito-Sans', Arial, sans-serif
+}
+
+a{
+	color: #ef5a43;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+
+}
+
+
+
+/*  Header and footer
+-----------------------------------*/
+
+header, footer{
+	background-color: #322f3e;
+	color: #fdffe8;
+}
+
+header h1, header h2{
+	color: #ff904c;
+
+}
+
+
+/*  work and experience
+-----------------------------------*/
+
+
+.work{
+	background-color: rgba(194, 206, 179, .4);
+}
+
+.education{
+	background-color: rgba(194, 206, 179, .6);
+}
+
+
+/*  education
+-----------------------------------*/
