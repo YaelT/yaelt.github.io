@@ -10,20 +10,27 @@ body{
     background-color: #f8f6f3;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #680b84;
+  color: #444;
 }
 
 main{
   /*padding: 30px;*/
   margin: auto;
   /*background: #222;*/
-  width: 1180px;
+  max-width: 1180px;
+  width: 100%;
 }
 
+.sectionRow{
+  margin-bottom: 10em;
+  width:  100%;
+  margin-left: 2%;
+  margin-right:  2%;
+}
 h1{
   font-size: 1.8em;
   font-weight: 300;
-  /*color: #680b84;*/
+  /*color: #444;*/
   padding-bottom: 5px;
     margin-top: 10px;
 }
@@ -38,7 +45,7 @@ h3{
   font-size: 1.2em;
   text-align: center;
   padding: 10px;
-  border-bottom: 2px orange solid;
+  border-bottom: 2px #222297 solid;
   margin-bottom: 5px;: 
 }
 
@@ -53,7 +60,7 @@ header{
 hr{
   border: none;
   margin: auto;
-  background: orange;
+  background: #222297;
   height: 5px;
   margin-top: 10px; 
 
@@ -67,13 +74,13 @@ float: right;
 
 nav a{
   font-weight: 700;
-  color: orange;
+  color: #222297;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 3px;
   padding: 5px 10px;
   margin: 10px;
-  border: 2px orange solid; 
+  border: 2px #222297 solid; 
 }
 
 nav a:hover{
@@ -81,17 +88,21 @@ nav a:hover{
 }
 
 nav a:active{
-  background: orange;
+  background: #222297;
   color: white;
 }
 
 footer{
 text-align: center;
 padding: 30px;
-background: #680b84;
-color: orange;
+background: #444;
+color: white;
 margin-top: 20px;
 
+}
+
+section{
+  width: 100%;
 }
 
 .clearfix:after{
@@ -105,16 +116,16 @@ margin-top: 20px;
 
 .wrapper{
   /*background-color: purple;*/
-  width: 90%;
+  width: 100%;
     margin: auto;
 }
 
 .category{
-  width:210px;
+  width: 17%;
   margin:10px;
-  padding: auto; 
+  padding: auto;
   float:left;
-  /*background-color: orange;*/
+  /*background-color: #222297;*/
   /*max-height: 400px;*/
   height: 480px;
 }
@@ -123,4 +134,5 @@ margin-top: 20px;
   max-width: 250px;
   display: block;
   margin:auto;
+  width: 100%;
 }
