@@ -9,9 +9,21 @@ tertiary: #c2ceb3;
 */
 
 
+
+html{
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 @font-face{
 	font-family: 'Nunito-Sans';
-	src: yaelt.github.io/Lynda/Nunito_Sans('NunitoSans-Regular.ttf');
+	src: url('../fonts/Nunito-Sans.ttf');
 }
 
 
@@ -19,7 +31,10 @@ tertiary: #c2ceb3;
 -----------------------------------*/
 
 body{
-	font-family: 'Nunito-Sans', Arial, sans-serif
+	font-family: 'Nunito-Sans', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
 }
 
 a{
@@ -29,13 +44,57 @@ a{
 
 a:hover{
 	text-decoration: underline;
-
+	color: #ff904c;
+	-webkit-transition:color ease-in-out .5s;
+	-moz-transition:color ease-in-out .5s;
+	-o-transition:color ease-in-out .5s;
+	transition:color ease-in-out .5s;	
 }
 
+h1, h2{
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+}
+
+h1{
+	font-size: 4rem;
+}
+
+h2{
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+
+.content-wrap{
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+}
+
+.col-narrow{
+	width: 40%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+.col-wide{
+	width: 60%;
+	float: left;
+	padding-left: 20px; 
+	/*border: 1px solid black;*/
+	min-height: 200px;		
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
 
 
 /*  Header and footer
 -----------------------------------*/
+
 
 header, footer{
 	background-color: #322f3e;
@@ -44,7 +103,25 @@ header, footer{
 
 header h1, header h2{
 	color: #ff904c;
+	margin: 0;
+}
 
+footer{
+	text-align: center;
+}
+
+.contact-info a{
+	/*background-color: white;*/
+	padding: 5px;
+	display: inline-block;
+	overflow: auto;
+}
+
+.profile-img{
+	/*width: 200px;*/
+	border-radius: 50%;
+	/*float: left;*/
+	/*margin-right: 30px;*/
 }
 
 
